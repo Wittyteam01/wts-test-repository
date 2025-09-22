@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Home Page </title>
+
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+        
+
+        <style>
+
+           
+            
+
+            body{
+                margin: 0;
+                padding: 0;
+               /* background-color: cadetblue; */
+               background-color: rgb(237, 233, 228);
+            }
+
+            .header{
+                width: auto;
+                height: 120px;
+              /*  background-color: aquamarine; */
+                background-color: rgb(237, 233, 228);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .img1{
+                
+                width: 80px;
+                height: 80px;
+                background-color: black;
+               
+            }
+
+            
+            .img2{
+                width: 80px;
+                height: 80px;
+                background-color: black;
+               
+            }
+
+            .headertext{
+              
+            } 
+
+            .headertext{
+                color: blue;
+                font-size: 60px;
+                text-decoration: underline;
+                text-align: center;
+                padding-top: 1%;
+                font-family: "Cormorant", serif;
+            }
+
+            .body{
+                display: flex;
+            }
+
+            .navbar1{
+                width: 15%;
+                height: 640px;
+                background-color: rgb(237, 233, 228);
+            }
+
+            .content{
+                width: 60%;
+                height: 640px;
+               /* background-color:green; */
+                border: 1px solid black;
+            }
+
+            .imgtxt1{
+                width: 100%;
+                height: 300px;
+                display: flex;
+            }
+
+            .writing{
+                width: 70%;
+                height: 300px;
+               /* background-color: aqua; */
+            }
+
+            .pic{
+                width: 30%;
+                height: 300px;
+                background-color: bisque;
+                margin-top: 2%;
+                margin-right: 1%;
+            }
+
+            .p11{
+                font-size: 20px;
+                font-family: "Cormorant";
+                padding-top: 3%;
+            }
+            
+            .imgtxt2{
+                width: 100%;
+                height: 300px;
+               /* background-color: rgb(229, 12, 12); */
+                display: flex;
+            }
+
+            .writingg{
+                width: 70%;
+                height: 300px;
+               /* background-color: aqua; */
+            }
+
+            .picc{
+                width: 30%;
+                height: 280px;
+                background-color: bisque;
+                margin-top: 3%;
+                margin-right: 1%;
+            }
+
+            .p111{
+                font-size: 20px;
+                font-family: "Cormorant";
+                padding-top: 3%;
+            }
+
+            .facts{
+                width: 30%;
+                height: 640px;
+                background-color: rgb(237, 233, 228);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .facts1{
+               width: 80%;
+               height: 500px;
+               background-color: rgb(237, 233, 228);
+               border: 1px solid black;
+            }
+
+            .p1{
+                text-align: center;
+                text-decoration: underline;
+                font-family: "Cormorant", serif;
+                font-size: 30px;
+            }
+
+            li a{
+                display: block;
+                text-decoration: none;
+                font-size: 18px;
+                font-family: "Cormorant", serif;
+                padding: 8px 16px;
+            }
+
+            ul{
+                list-style-type: none;
+            }
+
+            li a:hover{
+                background-color: gray;
+            }
+
+            .ul1 li{
+                color: black;
+                text-align: center;
+                line-height: 20px;
+                font-size: 20px;
+                font-family: "Cormorant", serif;
+                list-style-type: circle;
+            }
+        
+
+
+
+
+            .footer{
+                margin-top: 1%;
+                width: 100%;
+                height: 350px;
+                background-color: rgb(237, 233, 228);
+            }
+
+            .subfooter1{
+                width: 100%;
+                height: 80px;
+                background-color: rgb(237, 233, 228);
+                position: relative;
+               
+            }
+
+            .footertxt{
+                position: absolute;
+                top: 10px;
+                width: 200px;
+                height: 60px;
+                margin-left: 5%;
+                background-color: rgb(7, 31, 31);
+            }
+
+            .p9{
+                color: whitesmoke;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .t1{ 
+                margin-left: 70%;
+                width: 280px;
+                height: 60px;
+                position: absolute;
+                top: 10px;
+            }
+
+
+            .subfooter3{
+                width: 100%;
+                height: 200px;
+                background-color: rgb(237, 233, 228);
+                display: flex;
+                
+            }
+
+            .para1{
+                width: 33.33%;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .subpara1{
+                
+                width: 50%;
+                height: 250px;
+            }
+
+            .para2{
+                width: 33.33%;
+                height: 300px;
+               
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .subpara2{
+                width: 50%;
+                height: 250px;
+               
+            }
+            .para3{
+                width: 33.33%;
+                height: 300px;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .subpara3{
+                width: 50%;
+                height: 250px;
+               
+            }
+
+            .l1 a{
+                color: black;
+                font-family: "Cormorant", serif;
+                font-size: 22px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="img2">
+                <img src="Ahmedabad.jpg" style="width: 80px; height: 80px">
+           </div>
+           <div class="headertext"> AHMEDABAD: THE HERITAGE CITY </div> 
+           <div class="img1">
+                 <img src="Ahmedabad.jpg" style="width: 80px; height: 80px">
+           </div>
+        </div>
+
+        <div class="body">
+
+
+            <div class="navbar1">
+                <ul>
+                    <li><a href=""> HISTORY </a></li>
+                    <li><a href=""> PLACES TO VISIT </a></li>
+                    <li><a href=""> CITY EVENTS </a></li>
+                    <li><a href=""> NEWS </a></li>
+                    <li><a href=""> CONTACT US </a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+               <div class="imgtxt1">
+                    <div class="writing">
+                        <p class="p11"> The Pols of Ahmedabad are traditional, densely packed residential neighborhoods within the city's old quarter, characterized by narrow streets, enclosed courtyards, and intricate wooden architecture, including bird-feeding towers called chabutras. Originating from the 15th century for security, these communities were built as gated clusters of houses inhabited by families of the same caste, profession, or religion, fostering a strong social cohesion and a unique cultural legacy recognized by their UNESCO World Heritage status. </p>
+                    </div>
+                    <div class="pic">
+                        <img src="pol.jpg" style="width: 100%; height:300px">
+                    </div> 
+               </div>
+                
+               <div class="imgtxt2">
+                    <div class="writingg">
+                        <p class="p111"> Swaminarayan Akshardham in Gandhinagar, Gujarat, India is a large Hindu temple complex inspired by Yogiji Maharaj (1892–1971) the fourth spiritual successor of Swaminarayan, and created by Pramukh Swami Maharaj (1921–2016), the fifth spiritual successor of Swaminarayan according to the BAPS denomination of Swaminarayan Hinduism. Located in the capital of Gujarat, the complex was built over 13 years and is a tribute to Swaminarayan and his life and teachings.[1] At the center of the 23-acre complex is the Akshardham mandir, which is built from 6,000 metric tons of pink sandstone from Rajasthan.[2] The complex's name refers to the divine abode of Swaminarayan in the BAPS philosophy; followers of Swaminarayan believe that the jiva or soul goes to Akshardham after attaining moksha, or liberation. </p>
+                    </div>
+                    <div class="picc">
+                        <img src="Akshardham.jpg" style="width: 100%; height:300px">
+                    </div> 
+               </div>
+
+            </div>
+
+            <div class="facts">
+                <div class="facts1">
+                    <p class="p1"> FACTS: </p>
+                    <ul class="ul1">
+                        <li> Ahmedabad is the largest city in Gujarat state, with about 5.6 million people. </li>
+                        <li> Ahmedabad (also spelled Ahmadabad or Amdavad) is one of India's nicer beautiful cities, and is known best as the place where Mahatma Gandhi began his non-violent revolution to win India’s independence. </li>
+                        <li> Declared as India's first UNESCO World Heritage City, Ahmedabad is steeped in history and tradition. </li>
+                        <li> The old city, also known as the walled area, is characterised by pols (neighbourhoods), which are an ancient system of community-based housing. A 10-kilometer-long wall with 12 gates, 189 bastions and over 6,000 battlements had once guarded the old city. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <div class="subfooter1">
+                <div class="footertxt">
+                    <p class="p9"> FOOTER </p>
+                </div>
+                
+                <table class="t1">
+                    <tr>
+                        <th> <a href=""> <img src="instagram.png" style="width: 70px; height:60px; margin-right:10px"> </a> </th>
+                        <th> <a href=""> <img src="facebook.png" style="width: 70px; height:60px; margin-right:10px"> </th>
+                        <th> <a href=""> <img src="tiktok.png" style="width: 70px; height:60px; margin-right:10px"> </th>
+                        <th> <a href=""> <img src="pin.jpg" style="width: 70px; height:60px; margin-right:10px"> </th>
+                    </tr>
+                </table>
+            </div>
+
+                <div class="subfooter3">
+                    <div class="para1">
+                        <div class="subpara1">
+                            <ul>
+                                <li class="l1"> <a href=""> APPLICATION </a> </li>
+                                <li class="l1"> <a href=""> DOCUMENTATION </a> </li>
+                                <li class="l1"> <a href=""> SYSTEM </a> </li>
+                                <li class="l1"> <a href=""> FAQ's </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="para2">
+                        <div class="subpara2">
+                             <ul>
+                                <li class="l1"> <a href=""> OVERVIEW </a> </li>
+                                <li class="l1"> <a href=""> PREMIUM PLANS </a> </li>
+                                <li class="l1"> <a href=""> PROGRAMS </a> </li>
+                                <li class="l1"> <a href=""> PROMOTIONS </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="para3">
+                        <div class="subpara3">
+                             <ul>
+                                <li class="l1"> <a href=""> ABOUT US </a> </li>
+                                <li class="l1"> <a href=""> BLOGS </a> </li>
+                                <li class="l1"> <a href=""> PARTNERSHIP </a> </li>
+                                <li class="l1"> <a href=""> CAREERS </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </div>
+
+
+
+    </body>
+</html>
